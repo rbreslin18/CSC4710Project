@@ -1,0 +1,258 @@
+/* 
+Created by
+Rodney Breslin 
+Jon Meli
+Tanjim Rahman
+Manmeet Bhogal
+ */
+.column{
+	background-color:#006494;
+	border: 5px solid white;
+}
+body{
+	background-color:#003249;
+	}
+nav{
+	float:left;
+}
+nav { font-weight: bold;  
+     padding: 5px;
+	 float: left;
+	 width: 180px;
+	  color: white;
+}
+nav ul { list-style-type: none; }
+nav a { 
+display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #80CED7;
+  text-align:center;
+
+}
+nav a:link { color:#006494 ; }
+nav a:visited { color: #5280C5; }
+nav a:hover { 
+ background-color: #006494;
+  color: white;
+} 
+* { box-sizing: border-box; }
+header { background-color: #006494;
+       
+	   
+	   background-repeat: no-repeat;
+	   background-position: center;
+	   text-align: center;
+	   
+}
+h1{
+	line-height: 250%;
+ 	margin-bottom: 0;
+	font-size: 4em;
+	padding: .2em;
+	color:#CCDBDC;
+}
+h2{
+	line-height: 250%;
+ 	margin-bottom: 0;
+	font-size: 3em;
+	padding: .2em;
+	color:#CCDBDC;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;	
+	width:90%;
+}
+iframe{
+	margin-left:20px;
+	margin-right:20px;
+	
+	
+}
+main { padding-left: 2em;
+      padding-right: 2em;
+	  margin-left: 180px;
+	  background-color: #003249;
+	 border: 1px solid #006494;
+	
+}
+footer { font-size: .70em;
+       font-style: italic;
+	   text-align: center;
+	   margin-left: 180px;
+	   padding: 1em;
+	   float:left;
+	   position:static;
+	   left: 0;
+	   color:#CCDBDC;
+  bottom: 0;
+   width: 80%;
+}
+dt { font-weight: bold;
+     font-size: 1.1em;
+	 color: #CCDBDC;
+     font-family: Arial, Helvetica, sans-serif;	 
+	 text-align:center;
+	width:90%;
+}
+dd {
+	text-align:center;
+	width:90%;
+	 color: #CCDBDC;
+	 padding:20px;
+}
+p {
+	font-weight: bold;
+     font-size: 1.1em;
+	 color: #CCDBDC;
+     font-family: Georgia, "Times New Roman", serif;	 
+	 text-align:center;
+	 width:90%;
+	 
+}
+
+
+table{
+	 border: 1px solid black;
+	 width: 80%;
+	  color: #CCDBDC;
+	 
+}
+th, td{
+	padding: 15px;
+  text-align: center;
+  width: 100%;
+  font-size:20px;
+  border: 1px solid #006494;
+   height: 50px;
+   width:50px;
+   
+}
+a{
+	color:white
+}
+iframe{
+	width:90%;
+}
+
+}
+label{
+	float:left;
+	display:block;
+	text-align:left;
+	padding-right: 1em;
+	width: 8em;
+	color: #CCDBDC;
+	font-size: 1.1em;
+	 font-family: Georgia, "Times New Roman", serif;
+font-weight: bold;	 
+}
+input, textarea{
+	
+	display: block;
+	margin-bottom:1em;
+	
+
+}
+mySubmit{
+	margin-left: 9.5em;
+}
+form { 
+margin: 0 auto; 
+width:350px;
+}
+
+/* Mobile Consideration */
+@media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
+  }
+@media only screen and (max-width: 1024px) {
+body{
+margin:0;
+padding:0;
+background-color:white;
+background-image:none;
+
+}
+#wrapper{
+width:auto;
+min-width: 0; 
+margin:0;
+
+
+}
+
+h1{
+margin:0;
+font-size: 1.8em;
+line-height: 200%;
+
+
+}
+nav{
+float: none;
+width: auto;
+
+
+}
+nav li{
+
+display:inline-block;
+}
+nav a{
+padding: 1em;
+font-size: 1.2em;
+
+}
+nav ul{
+text-align:center;
+padding:0;
+margin:0;
+
+}
+main{
+font-size:90%;
+margin:0;
+padding-left: 2em;
+}
+footer{
+margin:0;
+}
+
+
+
+ }
+@media only screen and (max-width: 768px) {
+header{
+
+background-position:center;
+
+}
+h1{
+font-size: 1.5em;
+line-height:120%;
+
+}
+nav a{
+display:block;
+padding: .2em;
+font-size: 1.3em;
+border-bottom: 1px #330000 
+
+}
+nav li{
+display:block;
+
+}
+nav ul{
+text-align:left;
+
+
+}
+main{
+padding-left: 1em;
+}
+
+ }
