@@ -22,7 +22,9 @@ img{
 
 /* ==============================================
 Commented out old css styling
-
+form{
+	color:black;
+}
 nav{
 	float:left;
 }
