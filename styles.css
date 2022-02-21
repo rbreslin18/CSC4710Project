@@ -13,6 +13,13 @@ body{
 	background-color:#003249;
 	}
 
+
+/* img tag -> rounded corners */
+img{
+	border-radius:10px;
+}
+
+
 /* ==============================================
 Commented out old css styling
 
