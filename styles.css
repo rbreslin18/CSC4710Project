@@ -239,6 +239,10 @@ line-height:120%;
 
 }
 
+#taskView {
+	padding: 2em;
+}
+
 /* ==============================================
 Commented out old css styling
 

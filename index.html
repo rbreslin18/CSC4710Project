@@ -65,23 +65,52 @@ Manmeet Bhogal
 
 </header>
 <main>
-  <form>
-	<!-- Does not post anywhere, PHP file is placeholder --><
-<action="contact.php" method="POST">
-<label for="formDesc">Description</label>
-<input type="text" name="myName" id="myName">
-<label for="due">Due Date </label>
-<input type="text" name="due" id="due">
-<label for="due">Category </label>
-<input type="text" name="category" id="category"> 
-<label for="due">Priority </label>
-<input type="text" name="due" id="due">
-<label for="currentClient">Complete?</label><br>
-<input type="checkbox" name="currentClient" id="currentClient" >
 
+<div class="container">
+  <div class="card shadow" id="taskView">
+    <form>
+  	<!-- Does not post anywhere, PHP file is placeholder -->
 
-<input type="submit" name="mySubmit" id="mySubmit">
-</form>
+      <div class="mb-3">
+        <label for="taskName">Task Name:</label>
+        <input type="text" name="taskName" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="taskDesc">Task Description:</label>
+        <input type="text" name="taskDesc" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="due">Category </label>
+        <input type="text" name="category" id="category">
+      </div>
+
+      <div class="mb-3">
+        <label for="due">Due Date </label>
+        <input type="date" name="due" id="due" required>
+      </div>
+
+      <label for="priority">Priority </label>
+      <div class="mb-3">
+        <select id="priority" name="priority">
+          <option value="1">1 (Highest)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4 (Lowest)</option>
+        </select>
+      </div>
+      <label for="currentStatus">Status:</label><br>
+      <div class="mb-3">
+        <select id="currentStatus" name="currentStatus">
+          <option value="Active">Active</option>
+          <option value="Complete">Complete</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
 
 </main>
 <footer>
